@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome-shell-extensions">
+
+  <schema path="/org/gnome/shell/extensions/wikipedia-search-provider/" id="org.gnome.shell.extensions.wikipedia-search-provider">
+
+    <key type="b" name="enable-shortcuts">
+        <default>true</default>
+    </key>
+
+    <key type="b" name="enable-dark-theme">
+        <default>true</default>
+    </key>
+
+    <key type="b" name="show-first-in-overview">
+        <default>true</default>
+    </key>
+
+    <key type="as" name="search-from-clipboard">
+      <default><![CDATA[['<Super>W']]]></default>
+    </key>
+    <key type="as" name="search-from-primary-selection">
+      <default><![CDATA[['<Super><Shift>W']]]></default>
+    </key>
+
+    <key type="s" name="keyword">
+      <default>"w"</default>
+      <summary>Search keyword</summary>
+      <description>Search keyword</description>
+    </key>
+
+    <key type="s" name="default-language">
+      <default>"en"</default>
+      <summary>Default language</summary>
+      <description>Default language</description>
+    </key>
+
+    <key type="i" name="max-chars">
+      <default>450</default>
+    </key>
+
+    <key type="i" name="title-font-size">
+      <default>18</default>
+    </key>
+
+    <key type="i" name="extract-font-size">
+      <default>12</default>
+    </key>
+
+    <key type="i" name="result-height">
+      <default>170</default>
+    </key>
+
+    <key type="i" name="result-width">
+      <default>0</default>
+    </key>
+
+    <key type="i" name="delay-time">
+      <default>700</default>
+      <summary>Delay time</summary>
+      <description>Delay time in milliseconds.</description>
+    </key>
+
+    <key type="i" name="max-results">
+      <default>6</default>
+      <summary>Max results</summary>
+    </key>
+
+    <key type="b" name="enable-images">
+        <default>true</default>
+    </key>
+
+    <key type="i" name="image-max-width">
+      <default>120</default>
+    </key>
+
+    <key type="i" name="image-max-height">
+      <default>100</default>
+    </key>
+
+    <key type="i" name="max-result-columns">
+      <default>2</default>
+    </key>
+
+    <key type="b" name="exclude-disambiguation-pages">
+        <default>true</default>
+    </key>
+
+  </schema>
+</schemalist>
